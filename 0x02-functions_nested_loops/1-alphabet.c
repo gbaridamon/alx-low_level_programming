@@ -6,8 +6,10 @@
  * Return: always 0;
  *
  */
-void print_alphabet(void)
+int main(void)
 {
+	print_alphabet();
+
 	char n;
 
 	for (n = 'a'; n <= 'z'; n++)
