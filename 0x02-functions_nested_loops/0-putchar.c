@@ -1,5 +1,4 @@
-#include <stdio.h>
-#include "Putchar.h"
+#include "main.h"
 
 /**
  * main - Entry
@@ -9,7 +8,8 @@
  */
 int main(void)
 {
-	_putchar('P');
+	_putchar('_');
+	_putchar('p');
 	_putchar('u');
 	_putchar('t');
 	_putchar('c');
