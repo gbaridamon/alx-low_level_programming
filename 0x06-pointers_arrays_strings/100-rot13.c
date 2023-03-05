@@ -17,11 +17,11 @@ char *rot13(char *s)
 
 	for (i = 0; s[i] != '\0'; i++)
 	{
-		for (j = 0; j < 52; j++)
+		for (k = 0; k < 52; k++)
 		{
-			if (s[i] == data1[j])
+			if (s[i] == data1[k])
 			{
-				s[i] = datarot[j];
+				s[i] = datarot[k];
 				break;
 			}
 		}
